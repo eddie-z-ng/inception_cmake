@@ -7,6 +7,11 @@ These are my hacks around getting a Tensorflow Serving client (using the tutoria
 
 
 ### Build
+If this is the first time, make sure to fetch the submodule files
+```bash
+git submodule update --init --recursive
+```
+
 ```bash
 mkdir build && cd build
 cmake ..
